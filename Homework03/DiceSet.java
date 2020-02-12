@@ -1,9 +1,10 @@
 /** ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * @author Aiden Meyer
 * @version 1.0.0
-
+* 
 * DESCRIPTION:
-* This class describes a whole set of die. We use the class 
+* This class describes a whole set of dice (from the class Die). Each set has a certain amount 
+* of dice associated, each with the same number of sides.
 * 
 * METHODS:
 * public DiceSet (int count, int sides)         The constructor for our dice set.
@@ -16,8 +17,7 @@
 * public static void main(String[] args)        The (useless) main method.
 * public boolean isIdentical (DiceSet compare)  Checks to see if two dice sets are identical
 * public static void main (String[] args)       The main method (never used).
-* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-**/
+* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ **/
 
 public class DiceSet{
 
