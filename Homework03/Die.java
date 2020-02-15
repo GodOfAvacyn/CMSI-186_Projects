@@ -1,17 +1,17 @@
 /** ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * @author Aiden Meyer
 * @version 1.0.0
-* 
+*
 * DESCRIPTION:
-* This class describes a single die with n sides (with the restricttion that n cannot be less 
-* than 4). Our die has a pip value that can range from 1 to n. When we roll our die, our pip 
+* This class describes a single die with n sides (with the restricttion that n cannot be less
+* than 4). Our die has a pip value that can range from 1 to n. When we roll our die, our pip
 * value changes.
-* 
+*
 * METHODS:
 * public Die (int sides)                        The constructor method for our die.
 * public void roll()                            Rolls our die and sets its pip value.
 * public int getValue()                         Returns the current pip value.
-* public String toString()                      Returns a visual "stringy" version of the die. 
+* public String toString()                      Returns a visual "stringy" version of the die.
 * public static String toString (Die d)         The classwide version of the method above.
 * public static void main (String[] args)       The (useless) main method.
 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -37,9 +37,12 @@ public class Die {
     /**
     * Sets the pip value to a random integer between 1 and the number of sides
     **/
-	public void roll() {
+/// THIS SHOULD HAVE BEEN LEFT AS AN "int" AS IT WAS GIVEN TO YOU
+///	public void roll() {
+    public int roll() {         // changed back to int return type
 		double determiner = (this.sides-1) * Math.random() + 1;
 		pips = (int)Math.rint(determiner);
+        return pips;            // added returned value
 	}
 
     /**
