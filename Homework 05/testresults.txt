@@ -1,0 +1,447 @@
+.                                                                              
+=====================================================                          
+Testing the SkateRamp Ingetration Project Homework # 05                        
+=====================================================                          
+.                                                                              
+.                                                                              
+... Running built-in tests in the SkateRamp class                              
+...   should either throw exceptions which will not appear in the output file  
+...     but which should be caught to keep the test program running            
+...   or preferably output error messages which SHOULD appear there then quit  
+Whoops! You didn't enter enough arguments.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ HELP ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In short, this program uses a specific curve, computes the area underneath, and multiplies the result by 3.
+Your command line entry should read as such:
+
+java SkateRamp <function name> <start point> <end point> <tolerance>%
+
+The available functions are:
+poly (polynomial)
+sin (sine)
+cos (cosine)
+tan (tangent)
+exp (natural exponent)
+log (natural logarithm)
+sqrt (square root)
+
+Your start point and end point may be any real number, but your tolerance must be a value between 0 and 100.
+Also, the polynomial function takes in additional arguments describing its coefficients.
+For example, "poly 1 2 3" is the function 1 + 2x + 3x^2.
+
+I know it sounds confusing at first, but you'll get the hang of it! I know you will.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.                                                                              
+.                                                                              
+============================================================================   
+Testing bogus function name 'bogus'                                            
+...should either throw an exception which will not appear in the output file   
+...  or preferably ouput error messages which SHOULD appear there, then quit   
+============================================================================   
+Whoops! You didn't enter enough arguments.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ HELP ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In short, this program uses a specific curve, computes the area underneath, and multiplies the result by 3.
+Your command line entry should read as such:
+
+java SkateRamp <function name> <start point> <end point> <tolerance>%
+
+The available functions are:
+poly (polynomial)
+sin (sine)
+cos (cosine)
+tan (tangent)
+exp (natural exponent)
+log (natural logarithm)
+sqrt (square root)
+
+Your start point and end point may be any real number, but your tolerance must be a value between 0 and 100.
+Also, the polynomial function takes in additional arguments describing its coefficients.
+For example, "poly 1 2 3" is the function 1 + 2x + 3x^2.
+
+I know it sounds confusing at first, but you'll get the hang of it! I know you will.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.                                                                              
+.                                                                              
+============================================================================   
+Testing bogus function name 'poly' with no arguments                           
+...should either throw an exception which will not appear in the output file   
+...  or preferably ouput error messages which SHOULD appear there, then quit   
+============================================================================   
+Whoops! You didn't enter enough arguments.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ HELP ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In short, this program uses a specific curve, computes the area underneath, and multiplies the result by 3.
+Your command line entry should read as such:
+
+java SkateRamp <function name> <start point> <end point> <tolerance>%
+
+The available functions are:
+poly (polynomial)
+sin (sine)
+cos (cosine)
+tan (tangent)
+exp (natural exponent)
+log (natural logarithm)
+sqrt (square root)
+
+Your start point and end point may be any real number, but your tolerance must be a value between 0 and 100.
+Also, the polynomial function takes in additional arguments describing its coefficients.
+For example, "poly 1 2 3" is the function 1 + 2x + 3x^2.
+
+I know it sounds confusing at first, but you'll get the hang of it! I know you will.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'poly' with only one arg                           
+...should either throw an exception which will not appear in the output file   
+...  or preferably ouput error messages which SHOULD appear there, then quit   
+============================================================================   
+Whoops! You didn't enter enough arguments.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ HELP ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In short, this program uses a specific curve, computes the area underneath, and multiplies the result by 3.
+Your command line entry should read as such:
+
+java SkateRamp <function name> <start point> <end point> <tolerance>%
+
+The available functions are:
+poly (polynomial)
+sin (sine)
+cos (cosine)
+tan (tangent)
+exp (natural exponent)
+log (natural logarithm)
+sqrt (square root)
+
+Your start point and end point may be any real number, but your tolerance must be a value between 0 and 100.
+Also, the polynomial function takes in additional arguments describing its coefficients.
+For example, "poly 1 2 3" is the function 1 + 2x + 3x^2.
+
+I know it sounds confusing at first, but you'll get the hang of it! I know you will.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'poly' with only two args                          
+...should either throw an exception which will not appear in the output file   
+...  or preferably ouput error messages which SHOULD appear there, then quit   
+============================================================================   
+Whoops! Remember, the polynomial function takes in more arguments,as it needs coefficients.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'poly' with four args with negative final arg      
+...should either throw an exception which will not appear in the output file   
+...  or preferably ouput error messages which SHOULD appear there, then quit   
+============================================================================   
+The total wood needed is -22.5 square feet.
+The program took 1 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'poly' with four args with zero final arg          
+...should either throw an exception which will not appear in the output file   
+...  or preferably ouput error messages which SHOULD appear there, then quit   
+============================================================================   
+The total wood needed is -6.0 square feet.
+The program took 1 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'poly' with three args and default percentage      
+...should produce a result close to '0.0000'                                   
+============================================================================   
+The total wood needed is 0.0 square feet.
+The program took 1 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'poly' with three args with final arg 1e-6%       
+...should produce a result close to '2.0000'                                   
+============================================================================   
+The total wood needed is 6.0 square feet.
+The program took 1 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'poly' with test case parabola args and 1e-6%     
+...should produce a result close to '18.0000'                                  
+============================================================================   
+The total wood needed is 54.00001446703443 square feet.
+The program took 965 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'poly' with test case parabola args and default    
+...should produce a result close to '18.1800'                                  
+============================================================================   
+The total wood needed is 54.111570247933884 square feet.
+The program took 10 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'poly' with web page args and default              
+...should produce a result close to '1268.75'                                  
+============================================================================   
+The total wood needed is 3880.418975069252 square feet.
+The program took 56 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'poly' for x\5 - 2X\3 - X\2 - 7X - 3            
+   from 0 to 2 with 1e-6%                                                    
+...should produce a result close to '-20.00'                                   
+============================================================================   
+The total wood needed is -60.000017995513915 square feet.
+The program took 1201 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'sin' with web page args and default               
+...should produce a result close to '1.9137'                                   
+============================================================================   
+The total wood needed is 5.715230133191768 square feet.
+The program took 6 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'sin' with args -3.45 6.789 and 1.5e-4%           
+...should produce a result close to '-1.8278'                                  
+============================================================================   
+The total wood needed is -5.483285130291845 square feet.
+The program took 220 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'sin' with args 0.0 1.0 -3.45 6.789 and 1.5e-4%   
+...should produce a result close to '-1.8278'                                  
+============================================================================   
+The total wood needed is -5.483285130291845 square feet.
+The program took 220 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'sin' with args -17.0 3.0 -11.0 11.0 and 1e-7%    
+...should produce a result close to '0.6409'                                   
+============================================================================   
+The total wood needed is 0.0 square feet.
+The program took 1 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'sin' with args -17.0 1.0 -23.0 23.0 and 1e-4%    
+...should produce a result close to '-1.6276'                                  
+============================================================================   
+The total wood needed is 0.0 square feet.
+The program took 1 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'sqrt' with args 23.0 -3.0 7.0 1.0 7.0 and 1e-6%  
+...should output a result close to 67.8939                                     
+============================================================================   
+The total wood needed is 35.0405251153025 square feet.
+The program took 454 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'sqrt' with args 100.0 0.0 1.0 and 1e-8%          
+...should output a result close to 10.0                                        
+============================================================================   
+The total wood needed is 2.0000007666906514 square feet.
+The program took 3828 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'sqrt' with args -100.0 0.0 1.0 and 1e-8%         
+...should either throw an exception which will not appear in the output file   
+...  or preferably ouput error messages which SHOULD appear there, then quit   
+...  Also acceptable is the java output of 'NaN'                               
+============================================================================   
+The total wood needed is 2.0000007666906514 square feet.
+The program took 3828 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'sqrt' with args 2.0 0.0 1.0 and 1e-3%            
+...should output a result close to 1.4142                                      
+============================================================================   
+The total wood needed is 2.0007365139031767 square feet.
+The program took 37 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'cos' with web page args and default               
+...should produce a result close to '-0.1326'                                  
+============================================================================   
+The total wood needed is -0.40652333965501364 square feet.
+The program took 3 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'cos' with args -3.45 6.789 and 1.5e-4%           
+...should produce a result close to '0.1810'                                   
+============================================================================   
+The total wood needed is 0.5431599123212367 square feet.
+The program took 102 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'cos' with args 0.0 1.0 -3.45 6.789 and 1.5e-4%   
+...should produce a result close to '0.1810'                                   
+============================================================================   
+The total wood needed is 0.5431599123212367 square feet.
+The program took 102 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'cos' with args -17.0 3.0 -11.0 11.0 and 1e-7%    
+...should produce a result close to '-0.1834'                                  
+============================================================================   
+The total wood needed is -5.999947716871327 square feet.
+The program took 4321 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'cos' with args -17.0 1.0 -23.0 23.0 and 1e-4%    
+...should produce a result close to '0.4658'                                   
+============================================================================   
+The total wood needed is -5.078322763173699 square feet.
+The program took 668 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'tan' with args -0.5 1.25 and default              
+...should produce a result close to '1.0029'                                   
+============================================================================   
+The total wood needed is 3.008608009948073 square feet.
+The program took 6 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'tan' with args -0.5 1.25 and 1.5e-4%             
+...should produce a result close to '1.0235'                                   
+============================================================================   
+The total wood needed is 3.0704732197157587 square feet.
+The program took 114 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'tan' with args 0.0 1.0 -0.5 1.25 and 1.5e-4%     
+...should produce a result close to '1.0235'                                   
+============================================================================   
+The total wood needed is 3.0704732197157587 square feet.
+The program took 114 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'log' with args 0.0 1.0 1.1 2.3 and 1e-5%         
+...should produce a result close to '0.6109'                                   
+============================================================================   
+The total wood needed is 1.8325614543962896 square feet.
+The program took 83 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'log'                                              
+...should produce a result close to '0.6140'                                   
+============================================================================   
+The total wood needed is 1.841915832310846 square feet.
+The program took 2 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'exp' with web page args and default prct          
+...should produce a result close to '25.5763'                                  
+============================================================================   
+The total wood needed is 77.08993213495773 square feet.
+The program took 8 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'log10' with args 0.0 1.0 1.1 2.3 and 1e-5%       
+...should produce a result close to '0.2653'                                   
+============================================================================   
+Whoops! The function you entered was not valid.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ HELP ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In short, this program uses a specific curve, computes the area underneath, and multiplies the result by 3.
+Your command line entry should read as such:
+
+java SkateRamp <function name> <start point> <end point> <tolerance>%
+
+The available functions are:
+poly (polynomial)
+sin (sine)
+cos (cosine)
+tan (tangent)
+exp (natural exponent)
+log (natural logarithm)
+sqrt (square root)
+
+Your start point and end point may be any real number, but your tolerance must be a value between 0 and 100.
+Also, the polynomial function takes in additional arguments describing its coefficients.
+For example, "poly 1 2 3" is the function 1 + 2x + 3x^2.
+
+I know it sounds confusing at first, but you'll get the hang of it! I know you will.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+log10.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'log10'                                            
+...should produce a result close to '0.2653'                                   
+============================================================================   
+Whoops! The function you entered was not valid.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ HELP ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In short, this program uses a specific curve, computes the area underneath, and multiplies the result by 3.
+Your command line entry should read as such:
+
+java SkateRamp <function name> <start point> <end point> <tolerance>%
+
+The available functions are:
+poly (polynomial)
+sin (sine)
+cos (cosine)
+tan (tangent)
+exp (natural exponent)
+log (natural logarithm)
+sqrt (square root)
+
+Your start point and end point may be any real number, but your tolerance must be a value between 0 and 100.
+Also, the polynomial function takes in additional arguments describing its coefficients.
+For example, "poly 1 2 3" is the function 1 + 2x + 3x^2.
+
+I know it sounds confusing at first, but you'll get the hang of it! I know you will.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+log10.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'exp' with web page args and 1.6e-7%              
+...should produce a result close to '25.7264'                                  
+============================================================================   
+The total wood needed is 77.17918411881664 square feet.
+The program took 1445 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'exp' with 0.0 1.0 2.0 3.5 and 1e-7%              
+...should produce a result close to '25.7264'                                  
+============================================================================   
+The total wood needed is 77.1791850489137 square feet.
+The program took 1690 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+Testing valid function name 'exp' with web page args and default prct          
+...should produce a result close to '25.5763'                                  
+============================================================================   
+The total wood needed is 77.08993213495773 square feet.
+The program took 8 Iterations to complete.
+.                                                                              
+.                                                                              
+============================================================================   
+End of Testing                                                                 
+============================================================================   
