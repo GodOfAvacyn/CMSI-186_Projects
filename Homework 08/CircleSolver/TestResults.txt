@@ -1,0 +1,73 @@
+Test Results 
+Testing files 1 - 20 with CircleSolver... 
+whoops! Looks like your file doesn't contain correct numbers.
+. 
+whoops! Looks like your file doesn't contain correct numbers.
+. 
+Whoops! The file you entered doesn't have enough circles! 2 are required.
+. 
+...Does your file have a negative integer? Last I checked, that was impossible.
+. 
+Circle 1 is located at (1, 1) and has a radius of 1.
+Circle 2 is located at (2, 2) and has a radius of 2.
+The circles intersect each other in 2 places.
+. 
+Circle 1 is located at (20, 400) and has a radius of 8.
+Circle 2 is located at (20, 400) and has a radius of 8.
+Therefore, the circles are identical.
+. 
+Circle 1 is located at (1, 20) and has a radius of 20.
+Circle 2 is located at (-1, 7) and has a radius of 40.
+Circle 1 is inside of circle 2.
+. 
+Circle 1 is located at (30, 10) and has a radius of 30.
+Circle 2 is located at (20, 1) and has a radius of 50.
+Circle 1 is inside of circle 2.
+. 
+Circle 1 is located at (20, -50) and has a radius of 30.
+Circle 2 is located at (10, -60) and has a radius of 10.
+Circle 2 is inside of circle 1
+. 
+Circle 1 is located at (1, 1) and has a radius of 1.
+Circle 2 is located at (1, 2) and has a radius of 2.
+Circle 1 is inside circle 2, but their boundaries touch.
+. 
+Circle 1 is located at (0, 1) and has a radius of 4.
+Circle 2 is located at (0, -1) and has a radius of 2.
+Circle 2 is inside circle 1, but their boundaries touch.
+. 
+Circle 1 is located at (0, 1) and has a radius of 4.
+Circle 2 is located at (0, -5) and has a radius of 2.
+The circles are separate, but their boundaries touch.
+. 
+Circle 1 is located at (10, 1) and has a radius of 12.
+Circle 2 is located at (10, 4) and has a radius of 11.
+The circles intersect each other in 2 places.
+. 
+Circle 1 is located at (40, 8) and has a radius of 30.
+Circle 2 is located at (10, 40) and has a radius of 50.
+The circles intersect each other in 2 places.
+. 
+Circle 1 is located at (40, 80) and has a radius of 30.
+Circle 2 is located at (10, 40) and has a radius of 50.
+The circles intersect each other in 2 places.
+. 
+Circle 1 is located at (30, 180) and has a radius of 40.
+Circle 2 is located at (100, 100) and has a radius of 50.
+The circles are completely separate.
+. 
+Circle 1 is located at (0, 0) and has a radius of 40.
+Circle 2 is located at (100, 100) and has a radius of 50.
+The circles are completely separate.
+. 
+Circle 1 is located at (1, 0) and has a radius of 1.
+Circle 2 is located at (3, 1) and has a radius of 1.
+The circles are completely separate.
+. 
+Circle 1 is located at (3252, 614) and has a radius of 800.
+Circle 2 is located at (2999, 388) and has a radius of 900.
+The circles intersect each other in 2 places.
+. 
+Circle 1 is located at (3252, 614) and has a radius of 800.
+Circle 2 is located at (2999, 2688) and has a radius of 900.
+The circles are completely separate.

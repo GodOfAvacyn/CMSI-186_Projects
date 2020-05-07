@@ -1,0 +1,27 @@
+BinaryClockSolver.java:11: error: tag not allowed here: <li>
+  * <li>public BinaryClockSolver (int[] times) ------------ Constructor for the class.<br>
+    ^
+BinaryClockSolver.java:12: error: tag not allowed here: <li>
+  * <li>public static void main (String[] args) ----------- Main method of the class.<br>
+    ^
+BinaryClockSolver.java:13: error: unexpected end tag: </p>
+  * </p>
+    ^
+CircleSolver.java:15: error: tag not allowed here: <li>
+  * <li>public CircleSolver (String filename) ------------ Constructor for the class.<br>
+    ^
+CircleSolver.java:16: error: tag not allowed here: <li>
+  * <li>public String checkCircle() ---------------------- Checks relationship between two circles.<br>
+    ^
+CircleSolver.java:17: error: tag not allowed here: <li>
+  * <li>public static void main (String[] args) ---------- Main method of the class.<br>
+    ^
+CircleSolver.java:18: error: unexpected end tag: </p>
+  * </p>
+    ^
+CircleSolver.java:39: warning: no description for @throws
+      * @throws IOException
+        ^
+CircleSolver.java:40: error: reference not found
+      * @throws exception when radius is negative.                                        **/
+        ^

@@ -1,0 +1,76 @@
+
+Evaluation for homework 08:
+      CircleSolver and ClockSolver problems
+
+CircleSolver.java class file
+   the file must exist and compile
+   you can have a constructor if you like but it's not
+      needed so this is a "gimme" of one point
+   you must read circle parameters from a file
+   you must parse and convert the file lines
+   you must error check the input
+   you must calculate the distance between centers
+   you must output the proper relationship between the
+      two circles
+   you must have a test script file with 20 tests
+      one of which tests for invalid file name
+   you must have javadoc comments throughout
+ClockSolver.java class file
+   the file must exist and compile
+   you can have a constructor if you like but it's not
+      needed so this is a "gimme" of one point
+   you must read time string from the command line
+   you must parse and convert the time string
+   you must error check the input
+   you must output proper formatted binary strings
+   you must have a test script file with 25 tests
+      five of which test invalid input times
+   you must have javadoc comments throughout
+=======================================================
+
+Class CircleSolver
+CircleSolver.java                   1/1
+CircleSolver compiles               1/1
+constructor() [gimme]               1/1
+reads from file [5]                 5/5
+parses/converts lines [2]           2/2
+error checks input [5]              5/5
+distance calculation                1/1
+proper relationship [10]           10/10
+test script file [20]              20/20
+javadocs                            0/1
+one file multiple circles [5 EC]    0/5
+
+Class BinaryClockSolver
+BinaryClockSolver.java              1/1
+BinaryClockSolver compiles          1/1
+constructor() [gimme]               1/1
+reads cmd line args                 1/1
+error checks input [5]              5/5
+output per spec [5]                 5/5
+test script file [20]              20/20
+5 tests for invalid [5]             5/5
+javadocs                            0/1
+
+General Items
+coding style [5]                    5/5
+minimum 7 files in repo             7/7
+
+
+Total possible score:  99 points
+ extra credit points:   5 pts. [reading multiples from file]
+    Grand total:      104 points maximum possible
+
+Your score:  97 of 99 = 97.98% which is an A-plus
+
+Evaluation
+==========
+Nice work on this Aiden!  Just a couple of notes:
+
+You had a total of eight errors and one warning on your javadocs output.
+Check out the file named "javadocserrorresults.txt" in the "docs" directory
+for details.  Most of them were for invalid HTML tag locations.
+
+Other than that, PERFECTION PERSONIFIED!!!
+
+Very nice job!
